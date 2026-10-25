@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:mac-cleaner}",
+            "name": "Debug MacCleaner",
+            "target": "MacCleaner",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug MacCleaner"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:mac-cleaner}",
+            "name": "Release MacCleaner",
+            "target": "MacCleaner",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release MacCleaner"
+        }
+    ]
+}
